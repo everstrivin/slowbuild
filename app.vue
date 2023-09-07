@@ -1,5 +1,9 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <p>Here it is: {{ dbname }}</p>
   </div>
 </template>
+
+<script setup>
+  const dbname = useRuntimeConfig().public.dbhost;
+</script>
