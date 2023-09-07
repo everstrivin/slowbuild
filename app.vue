@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-  const dbname = useRuntimeConfig().public.dbhost;
+  const dbname = useRuntimeConfig().public.dbHost;
 </script>

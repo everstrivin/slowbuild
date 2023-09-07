@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      dbhost: 'hostname'
+      dbHost: 'hostname'
     }
   }
 })
